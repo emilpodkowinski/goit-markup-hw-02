@@ -1,0 +1,164 @@
+:root {
+   --blue: #2196f3;
+   --almost-black: #212121;
+   --grey: #757575;
+   --dark-backgorund: #2f303a;
+   --dirty-white: #e5e5e5;
+   --dirtier-white: #f5f4fa;
+   --white:#ffffff;  
+}
+
+body {
+   font-family: Roboto, sans-serif;
+   background: var(--dirty-white);
+   color: var(--almost-black);
+}
+
+ul {
+   list-style: none;
+}
+
+.heading1 {
+font-size: 2.75rem;
+font-weight: 900;
+line-height: 1.36;
+letter-spacing: 0.06em;
+color: var(--white);
+}
+
+.heading2 {
+   font-weight: 700;
+   font-size: 0.875rem;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   color: var(--almost-black);
+}
+
+.article {
+   font-size: 0.875rem;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   color: var(--grey);
+}
+
+.heading3i4 {
+   font-weight: 700;
+   font-size: 2.25rem;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   color: var(--almost-black);
+}
+
+.contacts {
+   font-weight: 500;
+   font-size: 0.875rem;
+   line-height: 1.17;
+   letter-spacing: 0.02em;
+   color: var(--grey);  
+   text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:focus {
+   color: var(--blue);
+}
+
+.navigation a {
+   cursor: pointer;
+   font-weight: 500;
+   font-size: 0.875rem;  
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--almost-black);
+   text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+   color: var(--blue);
+}
+
+.logo {
+   font-family: Raleway,sans-serif;
+   font-weight: 700;
+   font-size: 1.625rem;
+   line-height: 1.16;
+   color: #000;
+   text-decoration: none;
+   letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.logo:focus {
+   color: var(--blue);
+}
+
+.selector {
+   cursor: pointer;
+   font-weight: 500;
+   font-size: 1rem;
+   line-height: 1.6;
+   letter-spacing: 0.03em;
+   color: var(--almost-black);
+   background: #f5f4fa;
+}
+
+.selector:hover,
+.selector:focus {
+   color: var(--white);
+   background: var(--blue);
+}
+
+.name {
+   font-weight: 500;
+   font-size: 1rem;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   color: var(--almost-black);
+}
+
+.occupation {
+   font-size: 1rem;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   color: var(--grey);
+}
+
+.thing {
+   font-weight: 700;
+   font-size: 1.125rem;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   color: var(--almost-black);
+}
+
+.description {
+   font-size: 1rem;
+   line-height: 1.8;
+   letter-spacing: 0.03em;
+   color: var(--grey);
+}
+
+.footer,
+.footer-contact {
+   font-size: 0.875rem;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   color: var(--white);
+   text-decoration: none;
+}
+
+.footer-contact {
+   text-decoration: none;
+   color:var(--white 60%);
+}
+
+.footer:hover,
+.footer:focus {
+   color: var(--blue);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+   color: var(--blue)
+}
